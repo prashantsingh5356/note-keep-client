@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/prashantsingh5356/note-keep-client.git",
+  "homepage": "https://prashantsingh5356.github.io/note-keep-client",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
