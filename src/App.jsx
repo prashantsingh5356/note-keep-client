@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import LoginScreen from "./pages/LoginScreen";
 import SignUpScreen from "./pages/SignupScreen";
@@ -17,13 +17,13 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={token ? <HomeScreen /> : <LandingPage />} />
         <Route path="/login" element={<LoginScreen />} />
         <Route path="/signup" element={<SignUpScreen />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
