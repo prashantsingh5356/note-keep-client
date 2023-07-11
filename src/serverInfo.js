@@ -1,3 +1,4 @@
-let BASE_URL = "https://13.126.137.73:3000";
+let BASE_URL =
+  "https://note-keep-server-o2kzo20th-prashantsingh5356.vercel.app";
 
 export default BASE_URL;
